@@ -5,19 +5,13 @@
 			"name": "AsciiText",
 			"description": "make text into large ascii text, read it from the preview window",
 			"author": "pieisgood",
-			"homepage": "https://github.com/pieisgood/AsciiText",
+			"homepage": "https://github.com/pieisgood",
 			"last_modified": "2013-10-11 02:00:00",
 			"platforms": {
-				"windows": [
+				"*": [
 					{
 						"version": "1.0",
-						"url": "https://github.com/pieisgood/AsciiText/archive/master.zip"
-					}
-				],
-				"linux": [
-					{
-						"version": "1.0",
-						"url": "https://github.com/pieisgood/AsciiText/archive/master.zip"
+						"url": "https://nodeload.github.com/pieisgood/AsciiText/archive/master.zip"
 					}
 				]
 				
