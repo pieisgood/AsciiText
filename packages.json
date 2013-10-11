@@ -11,15 +11,15 @@
 				"windows": [
 					{
 						"version": "1.0",
-						"url": "https://github.com/pieisgood/AsciiText"
+						"url": "https://github.com/pieisgood/AsciiText/archive/master.zip"
 					}
-					]
+				]
 				"linux": [
 					{
 						"version": "1.0",
-						"url": "https://github.com/pieisgood/AsciiText"
+						"url": "https://github.com/pieisgood/AsciiText/archive/master.zip"
 					}
-					]
+				]
 				
 			}
 		}
