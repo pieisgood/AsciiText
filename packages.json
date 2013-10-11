@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "packages": [
+		{
+			"name": "AsciiText",
+			"description": "make text into large ascii text, read it from the preview window",
+			"author": "pieisgood",
+			"homepage": "https://github.com/pieisgood/AsciiText",
+			"last_modified": "2013-10-11 02:00:00",
+			"platforms": {
+				"windows": [
+					{
+						"version": "1.0",
+						"url": "https://github.com/pieisgood/AsciiText"
+					}
+					]
+				"linux": [
+					{
+						"version": "1.0",
+						"url": "https://github.com/pieisgood/AsciiText"
+					}
+					]
+				
+			}
+		}
+	]
+}
