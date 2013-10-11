@@ -1,9 +1,11 @@
 # ASCII_TEXT README
-
-How to Use : Select the text you want to convert to ascii, then hit "ctrl+alt+b".
-
-Exceptions 
-	: Only supports alphabetical letters and spaces
-
-Terms of use
-	: Do what ever you want
+<dl>
+<dt>How to Use</dt>
+<dd>Select the text you want to convert to ascii, then hit "ctrl+alt+b".</dd>
+***
+<dt>Exceptions</dt> 
+<dd>Only supports alphabetical letters and spaces</dd>
+***
+<dt>Terms of use</dt>
+<dd>Do what ever you want</dd>
+</dl>
