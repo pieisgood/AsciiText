@@ -34,15 +34,14 @@ Alphabet = { 'A' : a, 'B' : b, 'C' : c, 'D' : d, 'E' : e, 'F' : f, 'G' : g, 'H' 
 class AsciiTextCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         for region in self.view.sel():
-                self.view.replace(edit, region, self.string_to_ascii(self.view.substr(region)))
+            self.view.replace(
+                edit, region, self.string_to_ascii(self.view.substr(region))
+            )
 
     def string_to_ascii(self, in_string ):
-        in_string = in_string.upper()
         out_put_string = ''
-
-        for x in enumerate([0,1,2,3,4,5,6]):
-            for char in enumerate(in_string):
-                out_put_string = out_put_string + Alphabet[char[1]][x[1]]
-            out_put_string = out_put_string + "\n"
-
-        return out_put_string
+        for x in range(7):
+            for char in in_string.upper():
+                out_put_string += Alphabet[char][x]
+            out_put_string += "\n"
+        return out_put_string.replace('.', ' ')
